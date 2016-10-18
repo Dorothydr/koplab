@@ -16,6 +16,7 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="./js/holder.js"></script>
 		<script src="./js/size.js"></script>
+		<script src="./js/modernizr.custom.js"></script>
 
 	</head>
 
@@ -23,190 +24,152 @@
 
 	    <!-- Fixed navbar -->
 	    <nav class="navbar navbar-default navbar-fixed-top">
-	      <div class="container">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	          <a class="navbar-brand" href="#">
-	          	<!--img data-src="holder.js/150x30?theme=sky" alt="IMG 1"-->
-	          	<p>KopLab</p>
-	          </a>
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<!--img data-src="holder.js/150x30?theme=sky" alt="IMG 1"-->
+						<p>KopLab</p>
+					</a>
+				</div>
 
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse navbar-right">
-	          <ul class="nav navbar-nav">
-	            <li><a href="./index.html">Home</a></li>
-	            <li class="active"><a href="#Research">Research</a></li>
-	            <li><a href="./publications.html">Publications</a></li>
-	            <li><a href = "./groupmembers.html">Group members</a></li>
-	            <li><a href = "./photos.html">Photos</a></li>
-	            
-	              <ul class="dropdown-menu">
-	                <li><a href="#">Action</a></li>
-	                <li><a href="#">Another action</a></li>
-	                <li><a href="#">Something else here</a></li>
-	                <li role="separator" class="divider"></li>
-	                <li class="dropdown-header">Nav header</li>
-	                <li><a href="#">Separated link</a></li>
-	                <li><a href="#">One more separated link</a></li>
-	              </ul>
-	            </li>
-	          </ul>
-	        </div><!--/.nav-collapse -->
-	      </div>
-	    </nav>
+				<div id="navbar" class="navbar-collapse collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li><a href="./index.html">Home</a></li>
+						<li class="active"><a href="./research.html">Research</a></li>
+						<li><a href="./publications.html">Publications</a></li>
+						<li><a href = "./groupmembers.html">Group members</a></li>
+						<li><a href = "./photos.html">Photos</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
 
+	    <div class="container">
+			<div id="splitlayout" class="splitlayout">
+				<div class="intro">
 
-
-	    <div id="wrap">
-	    	<div class="jumbotron">
-			    <div class="container">
-			    	<div class="row">
-			    		<div class="col-xs-12" style="height:50px;">
-			    		<h2>Research Highlight</h2>
-			    		</div>
-			    	</div>
-
-		    		<hr>
-
-
-	        		<div class="row row-centered">
-
-		    		<h3><strong>Chemical Nanomedicine</strong></h3>
-	        			<div class="col-lg-6 text-center">
-			        		<img src="./img/pdt.jpg" alt="pdt" width="540">
-			    		</div>
-	        			<div class="col-lg-6 text-left">
-							<p style="font-size:18px">The major work in our lab involves application of nanotechnology to medicine, specifically regarding the number one and number two greatest killers, heart disease and cancer. For instance, our targeted, multifunctional, photodynamic therapy (PDT) nano-platforms enable tumor-focused targeted imaging (MRI, CT, PET, ultrasound, optical), done in combination with targeted therapy (Chemo, PDT, Photothermal Therapy), as well as with surgical delineation and continuous monitoring of therapy (e.g. for glioblastoma in vivo). </p>
-							<p style="font-size:18px">In 1998, we initiated the concept of targeted multifunctional nanoparticles, an approach that is pursued today by at least 17 pharmaceutical companies, and has been the catalyst for the paradigm shift often called cancer nano-theragnostics, combining targeted therapy and targeted diagnosticss (a, b). This has been demonstrated in model studies for several forms of cancer, in collaborations with oncologists and the Roswell Park Cancer Institute (c-e). Recently, with the help of collaborators in cardiology, we applied such cell targeted PDT nanoplatforms to the low-energy (safe) ablation of heart arrhythmia (e) demonstrated in both rodent and Sheep hearts (f); notably, arrhythmia is a primary factor in deaths from heart disease. </p> 
-						</div><!-- /.col-lg-6-text-->
-						<h4>selected reading</h4> 
-						<a href="http://www.ncbi.nlm.nih.gov/pubmed/17107738"> >Adv Drug Deliv Rev</a>
-						&nbsp&nbsp&nbsp
-
-						<a href="http://www.ncbi.nlm.nih.gov/pubmed/20959470"> >Cancer Res</a>&nbsp&nbsp&nbsp
-						<a href="http://www.ncbi.nlm.nih.gov/pubmed/22702416"> >ACS Nano.</a>&nbsp&nbsp&nbsp
-						<a href="https://sciforschenonline.org/journals/nanomedicine/IJNN-1-106.php"> >sciforschen</a>&nbsp&nbsp&nbsp
-						<a href="http://www.ncbi.nlm.nih.gov/pubmed/26511509"> >Sci Transl Med.</a>
-
-					</div><!-- /.row row-centered-->
-
-					<div class="row row-centered">
-						<div class="col-xs-12" style="height:100px;"></div>
+					<div class="side side-left">
+						<div class="intro-content">
+							<h1><span>Title A</span><span>Subtitle A</span></h1>
+						</div>
+						<div class="overlay"></div>
 					</div>
 
-					<hr>
+					<div class="side side-right">
+						<div class="intro-content">
+							<h1><span>Title B</span><span>Subtitle B</span></h1>
+						</div>
+						<div class="overlay"></div>
+					</div>
 
-	        		<div class="row row-centered">
-	        			<h3><strong>Spatially Resolved Real Time Analytical Chemistry In Vivo    </strong></h3>
-						<div class="col-lg-6 text-center">
-							<img src="./img/bioimaging.jpg" alt="pdt" width="540">
-						</div><!-- /.col-lg-6 -->
-						<div class="col-lg-6 text-left">
-							<p style="font-size:18px">Traditional analytical chemistry is performed on samples that have to be taken for analysis. For instance, blood samples taken from a patient will later undergo analysis by a lab. Very few measurements are done in real time. Exceptions are the finger monitoring of blood oxygen, or the measurement by inserted ion selective electrodes, e.g. into the brain (mainly on test animals). None of the latter measurements provide a spatial distribution of the analytes. In contrast, structural measurements provide the spatial distribution of features, and are called imaging (e.g., by using CT, MRI, or Ultrasound). Real time chemical imaging would provide much needed information to physicians. Today this is possible only with the help of a couple of highly expensive and sparsely available facilities: Functional MRI and PET (Positron Emission Tomography). Furthermore, these chemical imaging methods may require invasive probes (MRI) or the use of ionizing radiation (PET). A new approach, originated in our lab, employs photonic imaging. Notably, simple optical methods that are used in microscopy, mainly fluorescence microscopy, can only be applied “skin deep” in vivo, due to the severe light scattering by tissues. </p>
-							<p style="font-size:18px">We overcome the photon non-penetration problem by employing red or infrared laser illumination, combined with the detection of photon absorbance by the produced ultrasound; the latter easily penetrates tissues. We have demonstrated contrast nano-agents for 3-dimensional spatially resolved chemical imaging, deeply in vivo, of (1) pH (a-c) and (2) oxygen (c, d). Such pH and oxygen imaging information is of prime importance for the monitoring of cancer therapy, where the chemical nature (pH, O2) of the tumor microenvironment is highly relevant. We are working on generalizing this method for getting similar imaging information on biologically important ions (e.g., Ca, Mg, K, Na) or metabolites (e.g., glucose). Eventually, this approach could be generalized to larger molecules of interest, e.g., proteins. Notably, not even biopsies (solid or liquid) can provide such detailed information, e.g., on the spatial distribution of O2 or pH.  </p> 
-			        	</div><!-- /.col-lg-6 -->
-			        	<h4>selective reading</h4>
-			        	<a href="http://www.ncbi.nlm.nih.gov/pubmed/18493674">>Analyst.</a>&nbsp&nbsp&nbsp
-			        	<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111223/">>Analyst. </a>&nbsp&nbsp&nbsp
-			        	<a href="http://www.ncbi.nlm.nih.gov/pubmed/24156487">>Nanomedicine (Lond)</a>&nbsp&nbsp&nbsp
-			        	<a href="http://www.ncbi.nlm.nih.gov/pubmed/18601568">>J Biomed Opt</a>&nbsp&nbsp&nbsp
-					</div><!-- /.row row-centered-->
-					<hr>
-
-					<div class="row row-centered">
-		    			<h3><strong>Photonic Explorers for Biomedical use by Biologically Localized Embedding (PEBBLEs)</strong></h3>
-	        			<div class="col-lg-6 text-center">
-			        		<img src="./img/pebble_sensor.gif" alt="pdt" width="240">
-			    		</div>
-	        			<div class="col-lg-6 text-left">
-							<p style="font-size:18px">Research in the Kopelman Lab focuses on probing the nanoscale world. As Issac Asimov imagined in 1966, we are now living in a time when micron and nanometer sized chemistry, medicine, physics and materials science is leading us to new understandings of how our macroscale world works. The PEBBLE nanosensors developed in this lab, use materials research to probe analyte levels within single cells. Extensions of this technology are being applied to cancer detection and therapy. Finally, strange properties of diffusion-limited reaction kinetics are studied with both computer simulations and experiments.</p>
-							
-						</div><!-- /.col-lg-6-text-->
-						<h4>selected reading</h4> 
-						<a href="http://www.umich.edu/~koplab/research2/CRC_Review_try3pr.pdf"> >Peer review</a>
-						&nbsp&nbsp&nbsp
-
-					
-						
-
-					</div><!-- /.row row-centered-->
-					<hr>
+				</div><!-- /intro -->
 
 
 
-					<div class="row row-centered">
-		    			<h3><strong>Cancer Detection and Therapy using PEBBLEs</strong></h3>
-	        			<div class="col-lg-6 text-center">
-			        		<img src="./img/dynamic_nanoplatform.jpg" alt="pdt" width="240">
-			    		</div>
-	        			<div class="col-lg-6 text-left">
-							<p style="font-size:16px">
-								Multifunctional, biomedical nanoparticles have been developed and applied for in-vivo MRI (magnetic resonance imaging) enhancement and photodynamic therapy (PDT) of a rat implanted human brain tumor (9L glioma). The nano-particles have a polyacrylamide (PAA) core containing Photofrin as photosensitizer, iron oxide as MRI contrast agent and F3 peptide as molecular targeting group for the recognition of the tumor neovasculature.  The tumor targeting and PDT efficacy of the nanoparticles were monitored by MRI after the intravenous injection of the nanoparticles. The MRI enhancement was observed and extended over 22 hours post injection for targeted nanoparticles. A single iv injection of a targeted therapeutic nanoparticle dose, coupled with a single 5 min PDT treatment, leads not only to an increase in the rat survival rate but accomplishes complete tumor remission. </p>
-						</div><!-- /.col-lg-6-text-->
-						
-					</div><!-- /.row row-centered-->
-					<hr>
+				<div class="page page-right">
+					<div class="page-inner">
+						<div class="row row-centered">
+							<h3><strong>Chemical Nanomedicine</strong></h3>
+								<div class="col-lg-12">
+						    		<img src="./img/pdt.jpg" alt="pdt" width="540">
+									<p style="font-size:18px">The major work in our lab involves application of nanotechnology to medicine, specifically regarding the number one and number two greatest killers, heart disease and cancer. For instance, our targeted, multifunctional, photodynamic therapy (PDT) nano-platforms enable tumor-focused targeted imaging (MRI, CT, PET, ultrasound, optical), done in combination with targeted therapy (Chemo, PDT, Photothermal Therapy), as well as with surgical delineation and continuous monitoring of therapy (e.g. for glioblastoma in vivo). </p>
+									<p style="font-size:18px">In 1998, we initiated the concept of targeted multifunctional nanoparticles, an approach that is pursued today by at least 17 pharmaceutical companies, and has been the catalyst for the paradigm shift often called cancer nano-theragnostics, combining targeted therapy and targeted diagnosticss (a, b). This has been demonstrated in model studies for several forms of cancer, in collaborations with oncologists and the Roswell Park Cancer Institute (c-e). Recently, with the help of collaborators in cardiology, we applied such cell targeted PDT nanoplatforms to the low-energy (safe) ablation of heart arrhythmia (e) demonstrated in both rodent and Sheep hearts (f); notably, arrhythmia is a primary factor in deaths from heart disease. </p> 
+								</div><!-- /.col-lg-6-text-->
+								<h4>selected reading</h4> 
+								<a href="http://www.ncbi.nlm.nih.gov/pubmed/17107738"> >Adv Drug Deliv Rev</a>
+								&nbsp&nbsp&nbsp
+
+								<a href="http://www.ncbi.nlm.nih.gov/pubmed/20959470"> >Cancer Res</a>&nbsp&nbsp&nbsp
+								<a href="http://www.ncbi.nlm.nih.gov/pubmed/22702416"> >ACS Nano.</a>&nbsp&nbsp&nbsp
+								<a href="https://sciforschenonline.org/journals/nanomedicine/IJNN-1-106.php"> >sciforschen</a>&nbsp&nbsp&nbsp
+								<a href="http://www.ncbi.nlm.nih.gov/pubmed/26511509"> >Sci Transl Med.</a>
+
+							</div><!-- /.row row-centered-->
+
+							<hr>
+
+							<div class="row row-centered">
+									<h3><strong>Spatially Resolved Real Time Analytical Chemistry In Vivo    </strong></h3>
+									<div class="col-lg-12">
+										<img src="./img/bioimaging.jpg" alt="pdt" width="540">
+										<p style="font-size:18px">Traditional analytical chemistry is performed on samples that have to be taken for analysis. For instance, blood samples taken from a patient will later undergo analysis by a lab. Very few measurements are done in real time. Exceptions are the finger monitoring of blood oxygen, or the measurement by inserted ion selective electrodes, e.g. into the brain (mainly on test animals). None of the latter measurements provide a spatial distribution of the analytes. In contrast, structural measurements provide the spatial distribution of features, and are called imaging (e.g., by using CT, MRI, or Ultrasound). Real time chemical imaging would provide much needed information to physicians. Today this is possible only with the help of a couple of highly expensive and sparsely available facilities: Functional MRI and PET (Positron Emission Tomography). Furthermore, these chemical imaging methods may require invasive probes (MRI) or the use of ionizing radiation (PET). A new approach, originated in our lab, employs photonic imaging. Notably, simple optical methods that are used in microscopy, mainly fluorescence microscopy, can only be applied “skin deep” in vivo, due to the severe light scattering by tissues. </p>
+										<p style="font-size:18px">We overcome the photon non-penetration problem by employing red or infrared laser illumination, combined with the detection of photon absorbance by the produced ultrasound; the latter easily penetrates tissues. We have demonstrated contrast nano-agents for 3-dimensional spatially resolved chemical imaging, deeply in vivo, of (1) pH (a-c) and (2) oxygen (c, d). Such pH and oxygen imaging information is of prime importance for the monitoring of cancer therapy, where the chemical nature (pH, O2) of the tumor microenvironment is highly relevant. We are working on generalizing this method for getting similar imaging information on biologically important ions (e.g., Ca, Mg, K, Na) or metabolites (e.g., glucose). Eventually, this approach could be generalized to larger molecules of interest, e.g., proteins. Notably, not even biopsies (solid or liquid) can provide such detailed information, e.g., on the spatial distribution of O2 or pH.  </p> 
+							    	</div><!-- /.col-lg-6 -->
+							    	<h4>selective reading</h4>
+							    	<a href="http://www.ncbi.nlm.nih.gov/pubmed/18493674">>Analyst.</a>&nbsp&nbsp&nbsp
+							    	<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111223/">>Analyst. </a>&nbsp&nbsp&nbsp
+							    	<a href="http://www.ncbi.nlm.nih.gov/pubmed/24156487">>Nanomedicine (Lond)</a>&nbsp&nbsp&nbsp
+							    	<a href="http://www.ncbi.nlm.nih.gov/pubmed/18601568">>J Biomed Opt</a>&nbsp&nbsp&nbsp
+								</div><!-- /.row row-centered-->
+
+					</div><!-- /page-inner -->
+				</div><!-- /page-right -->
 
 
-					<div class="row row-centered">
-
-		    			<h3><strong>Modulated Optical Nanoprobes (MOONs)</strong></h3>
-	        			<div class="col-lg-6 text-center">
-			        		<img src="./img/moon_image.jpg" alt="pdt" width="240">
-			    		</div>
-	        			<div class="col-lg-6 text-left">
-							<p style="font-size:16px">
-								MOONs are microscopic photonic probes that look like moons: their northern hemisphere appears bright and is colored with a fluorescent indicator dye whose color reports on the local chemical environment; the other side is darkened with an opaque metal layer. They rotate in response to thermal fluctuations in a fluid (Brownian MOONs) and to rotating magnetic fields (MagMOONs), blinking as they turn through the phases of the moon. The blinking stands out against the background like a lighthouse against city lights allowing sensitive chemical analysis from microscopic probes. The probes have applications for ultrasensitive ion and small molecule sensors within cells, and robust sensitive immunoassays in blood and other fluid samples.</p>
-							
-						</div><!-- /.col-lg-6-text-->
-						<h4>selected reading</h4> 
-						<a href="http://arxiv.org/abs/cond-mat/0506418"> >arXiv</a>
-						
-					</div><!-- /.row row-centered-->
-					<hr>
+				<div class="page page-left">
+					<div class="page-inner">
+						<div class="row row-centered">
+								<h3><strong>Cancer Detection and Therapy using PEBBLEs</strong></h3>
+								<div class="col-lg-12">
+						    		<img src="./img/dynamic_nanoplatform.jpg" alt="pdt" width="240">
+									<p style="font-size:16px">
+										Multifunctional, biomedical nanoparticles have been developed and applied for in-vivo MRI (magnetic resonance imaging) enhancement and photodynamic therapy (PDT) of a rat implanted human brain tumor (9L glioma). The nano-particles have a polyacrylamide (PAA) core containing Photofrin as photosensitizer, iron oxide as MRI contrast agent and F3 peptide as molecular targeting group for the recognition of the tumor neovasculature.  The tumor targeting and PDT efficacy of the nanoparticles were monitored by MRI after the intravenous injection of the nanoparticles. The MRI enhancement was observed and extended over 22 hours post injection for targeted nanoparticles. A single iv injection of a targeted therapeutic nanoparticle dose, coupled with a single 5 min PDT treatment, leads not only to an increase in the rat survival rate but accomplishes complete tumor remission. </p>
+								</div><!-- /.col-lg-6-text-->
+								
+							</div><!-- /.row row-centered-->
+							<hr>
 
 
+							<div class="row row-centered">
 
-					<div class="row row-centered">
+								<h3><strong>Modulated Optical Nanoprobes (MOONs)</strong></h3>
+								<div class="col-lg-12">
+						    		<img src="./img/moon_image.jpg" alt="pdt" width="240">
+									<p style="font-size:16px">
+										MOONs are microscopic photonic probes that look like moons: their northern hemisphere appears bright and is colored with a fluorescent indicator dye whose color reports on the local chemical environment; the other side is darkened with an opaque metal layer. They rotate in response to thermal fluctuations in a fluid (Brownian MOONs) and to rotating magnetic fields (MagMOONs), blinking as they turn through the phases of the moon. The blinking stands out against the background like a lighthouse against city lights allowing sensitive chemical analysis from microscopic probes. The probes have applications for ultrasensitive ion and small molecule sensors within cells, and robust sensitive immunoassays in blood and other fluid samples.</p>
+									
+								</div><!-- /.col-lg-6-text-->
+								<h4>selected reading</h4> 
+								<a href="http://arxiv.org/abs/cond-mat/0506418"> >arXiv</a>
+								
+							</div><!-- /.row row-centered-->
+					</div><!-- /page-inner -->
+				</div><!-- /page-left -->
 
-		    			<h3><strong>Optical Tweezers</strong></h3>
-	        			<div class="col-lg-6 text-center">
-			        		<img src="./img/ceo.jpg" alt="pdt" width="340">
-			    		</div>
-	        			<div class="col-lg-6 text-left">
-							<p style="font-size:16px">Research in the Kopelman laboratory involves the creation of nano-scale biochemical probes for sensing analyte concentrations within and around cells. A smaller probe offers the advantages of non-invasiveness, spatial resolution, response speed and lower absolute detection limit. In order to manipulate this smaller probe optically (i.e. with laser tweezers) for measurements in and around single cells, one must specifically trap the particle without perturbing the surrounding environment. To achieve this specificity, we proposed near-resonance trapping of absorptive particles. </p>
-							<p style="font-size:16px">The Classical Electron Oscillator(CEO) model provides a simple description of the frequency-dependent complex polarizability of a Rayleigh particle (d << lambda) in a focused laser beam. Real and imaginary parts of the polarizability are proportional to the gradient and scattering forces, respectively. Similar relations occur for components of the complex index of refraction in the geometrical optics regime (d >> lambda). By frequency tuning the trapping beam near the probe's absorption resonance, one can maximize the gradient force and minimize the scattering force, thus optimizing the single beam gradient trap. </p> 
-						</div><!-- /.col-lg-6-text-->
-					</div><!-- /.row row-centered-->
 
-				</div><!-- /.container -->
-			</div><!-- /.jump -->
-		</div><!-- /.wrap -->
+
+				<a href="#" class="back back-right" title="back to intro">&rarr;</a>
+				<a href="#" class="back back-left" title="back to intro">&larr;</a>
+			</div><!-- /splitlayout -->
+	    </div>
+	    <script src="./js/classie.js"></script>
+		<script src="./js/cbpSplitLayout.js"></script>
+
 
 
 
 
 	    	
-		<div id="footer">
+		<footer class="footer">
 			<div class="container">
 				<div class="row text-center">
-					<div class="col-md-2">
-		  				<a href="http://lsa.umich.edu/chem"><img src="http://lsa.umich.edu/content/dam/lsa-site-assets/images/images/logos-colors/LSA_logo_1000.png"></a>
+					<div class="col-lg-2">
+		  				<a href="http://lsa.umich.edu/chem"><img src="./img/LSA_logo_1000.png"></a>
 		  			</div>
 
-					<div class="col-md-10">
+					<div class="col-lg-10">
 		  				<p>copyright 2016 Raoul Kopelman Group; site designed by <a href="mailto:drong@gmail.com" 
-		  				>Rong Duan</a>  </p>
-		  				<p>Contact information: <a href="mailto:kopelman@umich.edu">kopelman[at]umich.edu</a>.</p>
+		  				>Rong Duan</a> Contact information: <a href="mailto:kopelman@umich.edu">kopelman[at]umich.edu</a>.</p>
 		  			</div>
 	  			</div><!--end of row-->
 	  		</div>
-		</div><!--end of footer-->
+		</footer><!--end of footer-->
 	</body>
 
 </html>
