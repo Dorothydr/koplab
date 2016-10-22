@@ -211,7 +211,8 @@ body > .container {
 
 .intro-content h1 > span:first-child {
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 1em;
+
 }
 
 .intro-content h1 > span:nth-child(2) {
@@ -235,6 +236,7 @@ body > .container {
 
 .side-right .intro-content h1 > span:nth-child(2):before {
 	background: #5E5E5E;
+
 }
 
 .back {
@@ -303,6 +305,7 @@ body > .container {
 	color: #000;
 	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
+	text-align: center;
 }
 
 .splitlayout.open-right {
@@ -314,7 +317,7 @@ body > .container {
 	outline: 5px solid #fff; /* avoid rounding gaps */
 	background: #fff;
 	color: #000;
-	text-align: right;
+	text-align: center;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
 }
@@ -545,3 +548,4 @@ body > .container {
 @media screen and (max-width: 320px) {
 	body { font-size: 70%; }
 }
+
